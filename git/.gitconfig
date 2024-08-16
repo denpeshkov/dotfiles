@@ -1,0 +1,18 @@
+[user]
+	email = denpeshkov98@gmail.com
+	name = Denis Peshkov
+[core]
+	editor = code-insiders --new-window --wait
+	autocrlf = false
+	safecrlf = true
+	excludesFile = ~/.gitignore_global
+[diff]
+	tool = code-insiders
+[difftool "code-insiders"]
+	cmd = code-insiders --new-window --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = code-insiders
+[mergetool "code-insiders"]
+	cmd = code-insiders --new-window --wait --merge $REMOTE $LOCAL $BASE $MERGED
+[init]
+	defaultBranch = main
