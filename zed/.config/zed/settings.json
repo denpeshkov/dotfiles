@@ -1,0 +1,86 @@
+{
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "dockerfile": true,
+    "fish": true,
+    "html": true,
+    "lua": true,
+    "make": true,
+    "proto": true,
+    "sql": true,
+    "terraform": true,
+    "toml": true,
+    "helm": true
+  },
+  "vim_mode": true,
+  "theme": "Catppuccin Mocha (lavender)",
+  "icon_theme": "Catppuccin Mocha",
+  "base_keymap": "VSCode",
+  "buffer_font_family": "Fira Code",
+  "buffer_font_size": 13,
+  "ui_font_family": "Fira Code",
+  "ui_font_size": 14,
+  "title_bar": {
+    "show_branch_icon": true
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "agent": {
+    "enabled": false
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true,
+    "show_diagnostics": "all"
+  },
+  "disable_ai": true,
+  "terminal": {
+    "font_family": "Fira Code",
+    "font_size": 13,
+    "cursor_shape": "bar",
+    "blinking": "terminal_controlled",
+    "copy_on_select": true,
+    "button": true
+  },
+  "languages": {
+    "Go": {
+      "inlay_hints": {
+        "enabled": false
+      }
+    },
+    "Rust": {
+      "inlay_hints": {
+        "enabled": true,
+        "show_background": true,
+        "show_other_hints": true,
+        "show_parameter_hints": true,
+        "show_type_hints": true
+      }
+    },
+    "Markdown": {
+      "format_on_save": "on",
+      "soft_wrap": "none"
+    },
+    "Shell Script": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "shfmt",
+          "arguments": ["--filename", "{buffer_path}", "--indent", "4"]
+        }
+      }
+    }
+  },
+  "relative_line_numbers": true,
+  "scrollbar": {
+    "show": "auto"
+  },
+  "inlay_hints": {
+    "show_value_hints": false
+  }
+}

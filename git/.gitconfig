@@ -1,0 +1,18 @@
+[user]
+	email = denpeshkov98@gmail.com
+	name = Denis Peshkov
+[core]
+	editor = zed --wait
+	autocrlf = false
+	safecrlf = true
+	excludesFile = ~/.gitignore_global
+[diff]
+	tool = zed
+[difftool "zed"]
+	cmd = zed --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = zed
+[mergetool "zed"]
+	cmd = zed --wait --diff $MERGED
+[init]
+	defaultBranch = main
