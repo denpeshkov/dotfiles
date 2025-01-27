@@ -15,6 +15,6 @@ make stow
 To install all the tools using Homebrew, run:
 
 ```
-brew bundle --file=~/.dotfiles/Brewfile
-brew bundle --force cleanup --file=~/.dotfiles/Brewfile
+brew bundle --file=Brewfile
+brew bundle --force cleanup --file=Brewfile
 ```
