@@ -1,0 +1,12 @@
+font-family = Fira Code
+font-feature = calt
+font-feature = liga 
+font-feature = dlig
+font-size = 13
+theme = catppuccin-mocha
+cursor-style = block
+shell-integration = fish
+shell-integration-features = no-cursor
+working-directory = inherit
+confirm-close-surface = false
+macos-secure-input-indication = false

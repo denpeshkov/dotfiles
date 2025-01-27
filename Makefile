@@ -1,3 +1,3 @@
 .PHONY: stow
 stow:
-	@stow fish git ssh tmux bat
+	@stow fish git ssh tmux bat ghostty

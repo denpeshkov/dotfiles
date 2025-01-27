@@ -7,7 +7,7 @@ Dotfiles are managed with [GNU Stow](https://www.gnu.org/software/stow/) and are
 To set up all the files, run:
 
 ```
-make all
+make stow
 ```
 
 ## Install tools
