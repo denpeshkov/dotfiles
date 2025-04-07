@@ -1,10 +1,8 @@
 # Only in login shell
 if status is-login
-    fish_add_path --path ~/src/go.googlesource.com/go/bin ~/go/bin
-
-    # Export Homebrew prefixes and add to PATHs
-    # Should be the last command
     eval (/opt/homebrew/bin/brew shellenv)
+
+    fish_add_path --path ~/src/go.googlesource.com/go/bin ~/go/bin
 end
 
 fish_config theme choose "Catppuccin Mocha"
@@ -20,5 +18,3 @@ abbr -a ll 'eza -lF'
 abbr -a la 'eza -laF'
 
 abbr -a cat bat
-
-abbr -a code code-insiders

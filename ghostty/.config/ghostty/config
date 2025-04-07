@@ -10,3 +10,4 @@ shell-integration-features = no-cursor
 working-directory = inherit
 confirm-close-surface = false
 macos-secure-input-indication = false
+macos-icon = blueprint
